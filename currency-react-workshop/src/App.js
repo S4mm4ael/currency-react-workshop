@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from'./App.module.css';
+import Quote from "./components/Quote"
 
-function App() {
-  return (
-  );
-}
+export function App() {
+  return (<main className={styles.main}>
+    {/* Header */}
+    {/* Converter form */}
+    <Quote />
+  </main>);
+};
 
-export default App;
