@@ -1,6 +1,6 @@
-import {render} from "@testing-library/react";
+import {render, screen} from "@testing-library/react";
 import {Quote} from "./Quote";
-import quotes from "./quotes"
+import {quotes} from "./quotes"
 
 beforeEach(()=>{
     jest.spyOn(global.Math, "random").mockReturnValue(0.42);
